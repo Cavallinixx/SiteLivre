@@ -2,41 +2,94 @@ body{
     background-color:azure;
     margin: 0%;
     padding: 0%;
-}
-
-#boasVindas{
-    width: 108%;
-    border: 2px solid rgb(83, 93, 119);
-    text-align: center;
-    font-size: 25px;
-    background-color:darkgrey
-}
-
-#fotoTimes{
-    background-color:rgb(124, 124, 124);
-    width: 10px;
-    padding-left: 0%;
-   
-}
-
-.botao{
-    text-decoration: none;
-    font-family: 'Gill Sans';
-    font-size: 15px;
-    text-align: center;
-    border: 2px solid #000;
-    padding: 0;
-    background-color: #fff;
-    font-weight: bold;
-    color: #000;
-    border-radius: 15%;
-    margin-left: 15%;
+    
 }
 
 header{
     margin-top: 5%;
     height: 10%;
+    
 }
+
+#boasVindas{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    background-color:darkgrey
+}
+
+
+#MenuTime{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    background-color:darkgrey
+}
+
+.cabecalho{
+    border: #000;
+}
+
+
+.botao{
+    text-decoration: none;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid #000;
+    background-color: #fff;
+    position:sticky;
+    font-weight: bold;
+    color: #000;
+    border-radius: 40px;
+    
+
+    
+}
+
+.fut{
+    width: 24%;
+    height: 24%;
+    grid-template-columns: 33% 33% 33% 33%;
+    grid-template-rows: auto;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+    padding: 1% 8% 1% 8%;
+    border: 5px solid azure;
+    background-color: rgb(182, 182, 182);
+    
+}
+
+#fotoTimes{
+    width: 382px;
+    height:50px;
+    padding-top: 55%;
+    background-image: url("../Imagens/palmeiras.jpg");
+}
+li:hover{
+    background-color: #8b8b8b;
+    color: #fff;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.historia{
+    height: 30%;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5%;
+    font-size: 30px;
+    text-align: justify;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
 
 nav{
     margin-top: -3.5%;
@@ -64,23 +117,6 @@ nav{
     background-color: #fff;
     background-repeat:no-repeat;
 }
-/* Tela de Celular */
-@media screen and (max-width: 767px){
-    .botao{
-        text-decoration: none;
-        font-family: 'Gill Sans';
-        font-size: 30px;
-        text-align: center;
-        border: 2px solid #000;
-        padding: 5% 15% 5% 15%;
-        background-color: #fff;
-        font-weight:bold;
-        color: #000;
-        border-radius: 15%;
-        margin-left: 2%;
-    }
 
-    body{
-        font-size: 10px; 
-    }   
-}
+
+
