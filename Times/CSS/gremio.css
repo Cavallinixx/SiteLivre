@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(63, 110, 182)
+    
+}
+.cabecalho{
+    border: #000;
+}
+
+header{
+    margin-top: 5%;
+    height: 10%;
+    
+}
+#MenuTime{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+    background-color:darkgrey
+}
+
+
+li{
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+    padding: 1% 8% 1% 8%;
+    border: 5px solid rgb(63, 110, 182);
+    background-color: rgb(255, 255, 255);
+    
+}
